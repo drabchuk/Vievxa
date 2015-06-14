@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <Pane fx:id="panel2" layoutX="-774.0" layoutY="-251.0" prefHeight="765.0" prefWidth="1917.0">
+         <children>
+             <ImageView fx:id="card2_0" fitHeight="76.0" fitWidth="56.0" layoutX="415.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fx:id="card1_0" fitHeight="76.0" fitWidth="56.0" layoutX="359.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fx:id="card2_4" fitHeight="76.0" fitWidth="56.0" layoutX="1234.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fx:id="card1_4" fitHeight="76.0" fitWidth="56.0" layoutX="1186.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fitHeight="97.0" fitWidth="149.0" layoutX="1165.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/field.png" />
+               </image></ImageView>
+             <ImageView fx:id="card1_3" fitHeight="76.0" fitWidth="56.0" layoutX="921.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fx:id="card2_3" fitHeight="76.0" fitWidth="56.0" layoutX="977.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fitHeight="97.0" fitWidth="149.0" layoutX="901.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/field.png" />
+               </image></ImageView>
+             <ImageView fx:id="card2_2" fitHeight="76.0" fitWidth="56.0" layoutX="415.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fx:id="card1_2" fitHeight="76.0" fitWidth="56.0" layoutX="359.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fitHeight="97.0" fitWidth="149.0" layoutX="339.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/field.png" />
+               </image></ImageView>
+             <ImageView fx:id="card2_1" fitHeight="76.0" fitWidth="56.0" layoutX="154.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fx:id="card1_1" fitHeight="76.0" fitWidth="56.0" layoutX="98.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@../img/cards/null.png" />
+                 </image>
+             </ImageView>
+             <ImageView fitHeight="97.0" fitWidth="149.0" layoutX="80.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/field.png" />
+               </image></ImageView>
+             <ImageView fitHeight="97.0" fitWidth="149.0" layoutX="339.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/field.png" />
+               </image></ImageView>
+            <Button fx:id="checkButton" layoutX="585.0" layoutY="638.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="71.0" text="Check" />
+            <Button fx:id="foldButton" layoutX="662.0" layoutY="638.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="71.0" text="Fold" />
+            <Button fx:id="raiseButton" layoutX="739.0" layoutY="638.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="71.0" text="Raise" />
+            <ImageView fx:id="flop1" fitHeight="92.0" fitWidth="56.0" layoutX="537.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="flop2" fitHeight="92.0" fitWidth="56.0" layoutX="593.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="flop3" fitHeight="92.0" fitWidth="56.0" layoutX="649.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="turn" fitHeight="92.0" fitWidth="56.0" layoutX="705.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="river" fitHeight="92.0" fitWidth="56.0" layoutX="761.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card2_5" fitHeight="76.0" fitWidth="56.0" layoutX="977.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card1_5" fitHeight="76.0" fitWidth="56.0" layoutX="921.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cards/null.png" />
+               </image>
+            </ImageView>
+             <ImageView fitHeight="97.0" fitWidth="149.0" layoutX="901.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/field.png" />
+               </image></ImageView>
+             <Label fx:id="name0" layoutX="397.0" layoutY="590.0" text="" textFill="WHITE" />
+             <Label fx:id="name5" layoutX="958.0" layoutY="590.0" text="" textFill="WHITE" />
+             <Label fx:id="name1" layoutX="136.0" layoutY="366.0" text="" textFill="WHITE" />
+             <Label fx:id="name2" layoutX="392.0" layoutY="103.0" text="" textFill="WHITE" />
+             <Label fx:id="name3" layoutX="958.0" layoutY="102.0" text="" textFill="WHITE" />
+             <Label fx:id="name4" layoutX="1222.0" layoutY="364.0" text="" textFill="WHITE" />
+             <Label fx:id="bankroll0" layoutX="386.0" layoutY="616.0" text="" textFill="WHITE" />
+            <Label fx:id="bankroll1" layoutX="129.0" layoutY="392.0" text="" textFill="WHITE" />
+            <Label fx:id="bankroll2" layoutX="386.0" layoutY="128.0" text="" textFill="WHITE" />
+            <Label fx:id="bankroll3" layoutX="952.0" layoutY="128.0" text="" textFill="WHITE" />
+            <Label fx:id="bankroll4" layoutX="1216.0" layoutY="393.0" text="" textFill="WHITE" />
+            <Label fx:id="bankroll5" layoutX="953.0" layoutY="616.0" text="" textFill="WHITE" />
+            <Slider fx:id="slider" layoutX="817.0" layoutY="646.0" /><Label fx:id="bet0" layoutX="496.0" layoutY="511.0" text="" textFill="WHITE"/>
+            <Label fx:id="sliderValue" layoutX="840.0" layoutY="666.0" text="" textFill="WHITE"/>
+            <Label fx:id="bet1" layoutX="279.0" layoutY="378.0" text="" textFill="WHITE"/>
+            <Label fx:id="bet2" layoutX="496.0" layoutY="187.0" text="" textFill="WHITE"/>
+            <Label fx:id="bet3" layoutX="852.0" layoutY="187.0" text="" textFill="WHITE"/>
+            <Label fx:id="bet4" layoutX="1077.0" layoutY="378.0" text="" textFill="WHITE"/>
+            <Label fx:id="bet5" layoutX="852.0" layoutY="511.0" text="" textFill="WHITE"/>
+            <Label fx:id="bank" layoutX="648.0" layoutY="373.0" text="" textFill="WHITE"/>
+         </children>
+      </Pane>
+      <Pane fx:id="panel1" layoutX="549.0" layoutY="658.0" prefHeight="341.0" prefWidth="410.0">
+         <children>
+              <Button fx:id="button" layoutX="126.0" layoutY="194.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="173.0" text="Click Me!" />
+            <TextField fx:id="login" layoutX="138.0" layoutY="98.0" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

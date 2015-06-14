@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resize">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/img/cards/resize.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

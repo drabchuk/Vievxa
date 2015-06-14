@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resize1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/PokerClientFx-master/img/cards/resize.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
